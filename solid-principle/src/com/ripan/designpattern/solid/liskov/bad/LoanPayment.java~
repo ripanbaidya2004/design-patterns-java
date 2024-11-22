@@ -1,0 +1,4 @@
+package com.ripan.designpattern.solid.liskov.bad;
+
+public class LoanPayment {
+}
