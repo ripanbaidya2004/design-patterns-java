@@ -1,4 +1,0 @@
-package com.ripan.designpattern.solid.interfacesegregation;
-
-public class DatabaseUtil {
-}
