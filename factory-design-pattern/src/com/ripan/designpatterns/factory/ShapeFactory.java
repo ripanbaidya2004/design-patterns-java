@@ -1,4 +1,4 @@
-package com.ripan.designpatterns.factory.basic;
+package com.ripan.designpatterns.factory;
 
 /**
  * ShapeFactory class, which will give shape object to client according to shape type

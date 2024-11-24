@@ -1,4 +1,4 @@
-package com.ripan.designpatterns.factory.basic;
+package com.ripan.designpatterns.factory;
 
 public class FactoryPattenDemo {
     public static void main(String[] args) {

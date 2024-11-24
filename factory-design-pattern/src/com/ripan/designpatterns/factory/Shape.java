@@ -1,4 +1,4 @@
-package com.ripan.designpatterns.factory.basic;
+package com.ripan.designpatterns.factory;
 
 /**
  * Creating Shape interface, which will be implements by many concrete classes. like, Circle, Rectangle, Square
