@@ -12,6 +12,16 @@ import java.io.*;
 public class Main {
     public static void main(String[] args) throws Exception {
 
+        // Illegal construct
+        // Compile Time Error: The constructor LazySingleton() is not visible
+        // LazySingleton lazySingleton = new LazySingleton();
+
+        //Get the only object available
+        LazySingleton lazySingleton = LazySingleton.getLazySingletonInstance();
+
+        // using lazySingleton instance we can call displayMessage.
+        // lazySingleton.displayMessage();
+
         usingSerializable();
 
         usingReflection();
@@ -47,7 +57,7 @@ public class Main {
 
     private static void usingSerializable() throws IOException, ClassNotFoundException {
 
-        LazySingleton lazySingleton = LazySingleton.getInstance();
+        LazySingleton lazySingleton = LazySingleton.getLazySingletonInstance();
 
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(new FileOutputStream("singleton.obj"));
         objectOutputStream.writeObject(lazySingleton);

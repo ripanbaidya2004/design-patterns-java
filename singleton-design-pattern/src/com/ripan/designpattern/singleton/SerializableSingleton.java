@@ -5,7 +5,7 @@ import java.io.Serializable;
 public class SerializableSingleton implements Serializable {
 
     // Use transient to avoid serializing the singleton instance field
-    private static transient SerializableSingleton instance = null;
+    private static SerializableSingleton instance = null;
 
     // Private constructor to prevent direct instantiation
     private SerializableSingleton() {}

@@ -5,6 +5,6 @@ public enum EnumSingleton {
     INSTANCE;
 
     public void doSomething() {
-        System.out.println("doSomething");
+        System.out.println("Inside EnumSingleton...");
     }
 }
